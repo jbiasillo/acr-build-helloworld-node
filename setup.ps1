@@ -104,6 +104,11 @@ az acr task logs --registry $ACR_NAME
 
 az acr task list-runs --registry $ACR_NAME --output table
 
+#Tutorial: Automate container image builds when a base image is updated in an Azure container registry
+#https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-base-image-update
+
+
+# commit this file (manual sync)
 git add setup.ps1
 git commit -m "setup helper"
 git push origin master
